@@ -3,9 +3,9 @@ auto build latest python static linking stand alone executable using GitHub Acti
 
 ## how to use
 ```
-curl -LO https://github.com/leleliu008/git-prebuild/releases/download/2.30.2/git-2.30.2-x86_64-linux-glibc.tar.xz
-tar xf git-2.30.2-x86_64-linux-glibc.tar.xz -C /opt
-ln -sf /opt/git-2.30.2-x86_64-linux-glibc/bin/git /usr/bin/git
+curl -LO https://github.com/leleliu008/python-prebuild/releases/download/3.9.5/python-3.9.5-x86_64-linux-glibc.tar.xz
+tar xf python-3.9.5-x86_64-linux-glibc.tar.xz -C /opt
+export PATH=/opt/python-3.9.5-x86_64-linux-glibc/bin:$PATH
 ```
 
-**Note:** installation dir must be `/opt/git-2.30.2-x86_64-linux-glibc`.
+**Note:** installation dir must be `/opt/python-3.9.5-x86_64-linux-glibc`.
